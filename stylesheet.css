@@ -1,0 +1,395 @@
+    body {
+        margin: 0;
+        font-family: Poppins, sans-serif;
+    }
+    
+    .container {
+        background-image: url(./images/hero-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    
+    .header_top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .header_top:hover {
+        cursor: pointer;
+    }
+    
+    .header {
+        display: flex;
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        justify-content: space-between;
+    }
+    
+    .header ul {
+        display: flex;
+        list-style-type: none;
+        list-style-position: outside;
+        text-align: left;
+        padding-right: 20px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .header ul li {
+        border: 0px solid black;
+        box-sizing: border-box;
+        padding: 40px 10px 10px 10px;
+        margin-top: -18px;
+    }
+    
+    .home {
+        border: 0px solid black;
+        background-color: black;
+    }
+    
+    .header ul li:hover {
+        background-color: black;
+        cursor: pointer;
+    }
+    
+    .main_content {
+        height: 100vh;
+    }
+    
+    .main_content h1:nth-child(odd) {
+        color: white;
+        font-size: 48px;
+        padding-left: 11%;
+        padding-top: 100px;
+    }
+    
+    .main_content h1 span:nth-child(even) {
+        color: rgb(241, 219, 37);
+    }
+    
+    .main_content p {
+        display: block;
+        color: white;
+        padding-left: 11%;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-size-adjust: 100%;
+    }
+    
+    .button {
+        display: inline-flex;
+        gap: 10px;
+        padding-left: 11%;
+    }
+    
+    .read-more input {
+        border: 1px solid white;
+        background-color: white;
+        color: black;
+        font-size: 16px;
+        padding: 13px 50px;
+        display: inline-block;
+    }
+    
+    .read-more input:hover {
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0);
+        color: white
+    }
+    
+    .get_a_quote input:hover,
+    .read-more-2 input:hover,
+    .buttons input:hover {
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0);
+        color: rgb(241, 219, 37)
+    }
+    
+    .get_a_quote input,
+    .read-more-2 input {
+        border: 1px solid rgb(241, 219, 37);
+        background-color: rgb(241, 219, 37);
+        color: white;
+        font-size: 16px;
+        padding: 13px 50px;
+    }
+    
+    .who-are-we {
+        display: flex;
+        /* padding-top: 15%; */
+        padding-left: 11%;
+        margin-top: 1%;
+    }
+    
+    .underline-1 {
+        border: 3.5px solid rgb(241, 219, 37);
+        width: 30px;
+        border-radius: 5px;
+        margin-top: -20px;
+        /* margin-left: 48%; */
+    }
+    
+    .who-are-we-info {
+        border: 1px solid white;
+        background-color: white;
+        height: 320px;
+        padding-left: 20px;
+        padding-right: 30px;
+        margin-top: 35px;
+        margin-left: -45px;
+        width: 525px
+    }
+    
+    .who-are-we-info h2 {
+        display: block;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38.4px;
+        font-style: bold;
+    }
+    
+    .about p {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+    
+    .our-services {
+        margin-top: 100px;
+        background-color: black;
+        color: white;
+        align-items: center;
+        text-align: center;
+        font-weight: 700;
+        line-height: 38.4px;
+        padding-top: 50px;
+    }
+    
+    .underline {
+        border: 3.5px solid rgb(241, 219, 37);
+        width: 30px;
+        border-radius: 5px;
+        margin-top: -20px;
+        margin-left: 48.5%;
+    }
+    
+    .card-holder {
+        display: flex;
+        padding-left: 11%;
+        padding-right: 200px;
+        padding-bottom: 100px;
+        gap: 35px;
+        margin-top: 70px;
+    }
+    
+    .cards {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        border: 1px solid white;
+        text-align: center;
+        align-items: center;
+        padding: 20px;
+        background-color: white;
+        color: black;
+    }
+    
+    .cards p {
+        font-size: 16px;
+        font-weight: 400;
+        word-spacing: 2px;
+        line-height: 24px;
+    }
+    
+    .client {
+        text-align: center;
+        line-height: 32px;
+        margin-top: 100px;
+    }
+    
+    .client img {
+        padding-top: 30px;
+    }
+    
+    .client h3 {
+        margin-top: -1px;
+    }
+    
+    .client p {
+        align-items: center;
+        text-align: center;
+        margin-top: -8px;
+        border: 1px solid white;
+        width: 55%;
+        padding-left: 22%;
+        /* padding-right: 20%; */
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        word-spacing: 1px;
+    }
+    
+    .get-in-touch {
+        background-image: url(./images/contact-bg.jpg);
+        height: 90vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 100px;
+        padding-top: 5%;
+        text-align: center;
+        color: white;
+        font-size: 18px;
+    }
+    
+    .forms {
+        margin-top: 40px;
+    }
+    
+    .each-form input {
+        height: 45px;
+        margin-top: 20px;
+        width: 650px;
+        /* gap: 90px; */
+        font-size: 16px;
+        font-weight: 400;
+        padding-left: 10px;
+        display: bold;
+        color: black;
+    }
+    
+    .each-form-message input {
+        height: 120px;
+        margin-top: 20px;
+        width: 650px;
+        /* gap: 90px; */
+        font-size: 16px;
+        font-weight: 400;
+        padding-left: 10px;
+        display: bold;
+    }
+    
+    .buttons input {
+        margin-top: 40px;
+        width: 175px;
+        text-align: center;
+        border: 1px solid rgb(241, 219, 37);
+        background-color: rgb(241, 219, 37);
+        color: white;
+        font-size: 16px;
+        padding: 15px 2px;
+    }
+    
+    .our-guards {
+        text-align: center;
+        margin-top: 75px;
+        font-weight: 700;
+    }
+    
+    .our-guards p {
+        text-align: center;
+        padding-left: 16%;
+        padding-right: 16%;
+        font-weight: 400;
+        font-weight: 20px;
+    }
+    
+    .guards {
+        display: flex;
+        justify-content: space-between;
+        gap: 3%;
+        padding-left: 11%;
+        padding-right: 11%;
+        margin-top: 65px;
+    }
+    
+    .names {
+        display: flex;
+        justify-content: space-between;
+        gap: 3%;
+        padding-left: 18%;
+        padding-right: 18%;
+        color: white;
+        line-height: 16PX;
+    }
+    
+    .name-designation {
+        border: 1px solid rgba(0, 0, 0, 0);
+        background-color: rgba(0, 0, 0, 0);
+        margin-top: -10%;
+    }
+    
+    .details {
+        /* display: flex; */
+        /* justify-content: space-between; */
+        margin-top: 5%;
+        background-color: black;
+        color: white;
+        padding-top: 3%;
+        padding-left: 11%;
+        padding-right: 11%;
+        padding-bottom: 9%;
+        gap: 5%;
+    }
+    
+    .details:first-child {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .guarder,
+    .useful-link,
+    .contact-us {
+        width: 210px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .useful-link {
+        width: 200px;
+    }
+    
+    .contact-us {
+        width: 220px;
+    }
+    
+    .guarder h3,
+    .useful-link h3,
+    .contact-us h3,
+    .newsletter h3 {
+        font-size: 20px;
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .email input {
+        border: 1px solid white;
+        border-radius: 25px;
+        height: 35px;
+        width: 250px;
+        font-size: 16px;
+    }
+    
+    .subscribe input {
+        border-radius: 25px;
+        width: 175px;
+        height: 35px;
+        margin-top: 10%;
+        text-align: center;
+        font-size: 16px;
+        background-color: rgb(241, 219, 37);
+        color: white;
+        padding: 2px;
+    }
